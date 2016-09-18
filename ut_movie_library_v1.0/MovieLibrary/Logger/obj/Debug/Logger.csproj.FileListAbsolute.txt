@@ -1,0 +1,50 @@
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\Reference_code\Logger_demo\Logger\bin\Debug\Logger.dll
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\Reference_code\Logger_demo\Logger\bin\Debug\Logger.pdb
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\Reference_code\Logger_demo\Logger\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\Reference_code\Logger_demo\Logger\obj\Debug\Logger.dll
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\Reference_code\Logger_demo\Logger\obj\Debug\Logger.pdb
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\SourceCode_V3.2\Logger\bin\Debug\Logger.dll
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\SourceCode_V3.2\Logger\bin\Debug\Logger.pdb
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\SourceCode_V3.2\Logger\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\SourceCode_V3.2\Logger\obj\Debug\Logger.dll
+C:\Users\AKSHAY\Desktop\TABLE_SCRIPT_SOURCE_CODE_DB\SourceCode_V3.2\Logger\obj\Debug\Logger.pdb
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\Logger.dll
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\Logger.pdb
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\Monitor.exe
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\NotificationWindow.dll
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\FastColoredTextBox.dll
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\Monitor.pdb
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\FastColoredTextBox.pdb
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\FastColoredTextBox.xml
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\bin\Debug\NotificationWindow.pdb
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\obj\Debug\Logger.Properties.Resources.resources
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\obj\Debug\Logger.csproj.GenerateResource.Cache
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\obj\Debug\Logger.dll
+C:\Users\AKSHAY\Documents\Visual Studio 2008\Projects\SourceCode\Logger\obj\Debug\Logger.pdb
+D:\SourceCode_V6.1\Logger\bin\Debug\Logger.dll
+D:\SourceCode_V6.1\Logger\bin\Debug\Logger.pdb
+D:\SourceCode_V6.1\Logger\bin\Debug\Monitor.exe
+D:\SourceCode_V6.1\Logger\bin\Debug\NotificationWindow.dll
+D:\SourceCode_V6.1\Logger\bin\Debug\FastColoredTextBox.dll
+D:\SourceCode_V6.1\Logger\bin\Debug\Monitor.pdb
+D:\SourceCode_V6.1\Logger\bin\Debug\NotificationWindow.pdb
+D:\SourceCode_V6.1\Logger\bin\Debug\FastColoredTextBox.pdb
+D:\SourceCode_V6.1\Logger\bin\Debug\FastColoredTextBox.xml
+D:\SourceCode_V6.1\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\SourceCode_V6.1\Logger\obj\Debug\Logger.Properties.Resources.resources
+D:\SourceCode_V6.1\Logger\obj\Debug\Logger.csproj.GenerateResource.Cache
+D:\SourceCode_V6.1\Logger\obj\Debug\Logger.dll
+D:\SourceCode_V6.1\Logger\obj\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\bin\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\bin\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\obj\Debug\Logger.Properties.Resources.resources
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\obj\Debug\Logger.csproj.GenerateResource.Cache
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\obj\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\Logger\obj\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\bin\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\bin\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\obj\Debug\Logger.Properties.Resources.resources
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\obj\Debug\Logger.csproj.GenerateResource.Cache
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\obj\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\Logger\obj\Debug\Logger.pdb

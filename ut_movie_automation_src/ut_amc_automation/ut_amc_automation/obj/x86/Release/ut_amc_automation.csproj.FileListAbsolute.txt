@@ -1,0 +1,12 @@
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\ut_amc_automation.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\Monitor.exe
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\SourceCodeDAL.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\FastColoredTextBox.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\Monitor.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\SourceCodeDAL.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\FastColoredTextBox.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Release\FastColoredTextBox.xml
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\obj\x86\Release\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\obj\x86\Release\ut_amc_automation.pdb

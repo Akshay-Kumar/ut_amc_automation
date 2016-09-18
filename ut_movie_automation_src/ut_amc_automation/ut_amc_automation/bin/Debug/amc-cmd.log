@@ -1,0 +1,681 @@
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "X-Men Apocalypse (2016) [YTS.AG]"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "X-Men Apocalypse (2016) [YTS.AG]"
+****************************************************************************************************************************
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "X-Men Apocalypse (2016) [YTS.AG]"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "X-Men Apocalypse (2016) [YTS.AG]"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 04:15:36 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\X-Men Apocalypse (2016) [YTS.AG]
+Parameter: ut_file = X-Men.Apocalypse.2016.720p.BluRay.x264-[YTS.AG].mp4
+Parameter: ut_kind = multi
+Parameter: ut_title = X-Men Apocalypse (2016) [YTS.AG]
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (954)
+Failure (┬░_┬░)
+No files selected for processing
+
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 04:38:10 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 04:44:25 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+No files selected for processing
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 04:45:16 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+No files selected for processing
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+Failure (┬░_┬░)
+
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 04:46:40 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (952)
+Input: C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Exclude: C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\Hon3yHD.com.txt
+Exclude: C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\Sample.mkv
+Exclude: C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\Torrent Seed By www.hostdzire.com.txt
+One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv [series: One Night Stand, movie: One Night Stand (2016)]
+Exclude Series: One Night Stand
+Group: [tvs:null, mov:one night stand 2016] => [One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+Get [English] subtitles for 1 files
+Looking up subtitles by hash via OpenSubtitles
+No matching subtitles found: C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+[COPY] Rename [C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv] to [G:\Media1\New Films\One Night Stand (2016)\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+[COPY] Failed to rename [C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+Processed 0 files
+C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv -> G:\Media1\New Films\One Night Stand (2016)\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv: There is not enough space on the disk.
+Processing 1 unsorted files
+
+[COPY] Rename [C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv] to [G:\Media1\Unsorted\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+[COPY] Failed to rename [C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv]
+Processed 0 files
+C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv -> G:\Media1\Unsorted\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv: There is not enough space on the disk.
+
+     [mail] Sending email: [FileBot] Failure
+     [mail] Sent email with 0 attachments
+Finished without processing any files
+Failure (┬░_┬░)
+
+Data inserted successfully!
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 05:01:31 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+Failure (┬░_┬░)
+No files selected for processing
+
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 05:01:47 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+No files selected for processing
+
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 05:07:34 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+Failure (┬░_┬░)
+No files selected for processing
+
+Error inserting data!
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 05:07:50 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+Failure (┬░_┬░)
+No files selected for processing
+
+Error inserting data!
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Thu Sep 15 05:14:45 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (956)
+Failure (┬░_┬░)
+No files selected for processing
+
+Error inserting data!
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Sun Sep 18 05:36:55 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (963)
+Failure (┬░_┬░)
+No files selected for processing
+
+
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug>echo off 
+###########################################################################################################################
+							Script for copying torrent file
+###########################################################################################################################
+****************************************************************************************************************************
+Initializing...
+Setting up local variables.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Setting up global variables
+Running some contingency checks
+****************************************************************************************************************************
+Running script for procssing of downloaded torrent file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Entering COPY_TORRENT block ::.
+****************************************************************************************************************************
+****************************************************************************************************************************
+Starting filebot script for procssing of file : "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y"
+****************************************************************************************************************************
+****************************************************************************************************************************
+.:: Exiting COPY_TORRENT block ::.
+****************************************************************************************************************************
+exiting script file.
+Locking C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\amc.log
+Run script [C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\filebot_scripts\scripts-master\amc.groovy] at [Sun Sep 18 05:37:36 IST 2016]
+Parameter: exec = echo {file} >> C:/Users/AkshayKumar/Desktop/Torrent_Work/ut_config/processed-files.txt
+Parameter: gmail = *****
+Parameter: mailto = *****
+Parameter: pushbullet = *****
+Parameter: subtitles = en
+Parameter: music = y
+Parameter: unsorted = y
+Parameter: artwork = y
+Parameter: storeReport = y
+Parameter: reportError = y
+Parameter: ut_dir = C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_file = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv
+Parameter: ut_kind = multi
+Parameter: ut_title = One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y
+Parameter: ut_label = 
+Parameter: ut_state = 20
+Parameter: plex = localhost
+Parameter: deleteAfterExtract = y
+Parameter: clean = y
+Parameter: excludeList = amc-input.txt
+Parameter: seriesFormat = G:/Media1/TV Shows/{n}/Season {s.pad(2)}/{n} - {s00e00} - {t}
+Parameter: animeFormat = G:/Media1/Anime/{n} - {s00e00} - {t}
+Parameter: movieFormat = G:/Media1/New Films/{n} ({y})/{fn}
+Parameter: musicFormat = G:/Media1/Music/{n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}
+Using excludes: G:\Media1\amc-input.txt (963)
+Failure (┬░_┬░)
+

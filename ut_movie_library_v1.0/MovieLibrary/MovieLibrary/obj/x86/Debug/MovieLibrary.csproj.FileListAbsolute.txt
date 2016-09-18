@@ -1,0 +1,17 @@
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\MovieLibrary.exe
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\MovieLibrary.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\SourceCodeDAL.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\SourceCodeDAL.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.csprojResolveAssemblyReference.cache
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.Main.resources
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.Properties.Resources.resources
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.csproj.GenerateResource.Cache
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.exe
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\obj\x86\Debug\MovieLibrary.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\office.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\bin\Debug\office.xml

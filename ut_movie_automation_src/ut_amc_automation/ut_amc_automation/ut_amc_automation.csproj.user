@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>"C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\ut_amc_automation.bat" "C:\Users\AkshayKumar\Downloads\Complete\One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y" "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y.mkv" "multi" "One Night Stand 2016 Hindi DvDScR (1CD) x264 AAC - Hon3y" "" "20" "DF840424F4584C20774D6A49B152C1237AA86B26"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

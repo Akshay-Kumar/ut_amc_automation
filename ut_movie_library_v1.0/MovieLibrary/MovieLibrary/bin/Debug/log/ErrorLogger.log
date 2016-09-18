@@ -1,0 +1,93 @@
+Source     	  :System.Data
+Method     	  :SetTypeMismatchError
+Date       	  :09-18-2016
+Time       	  :05-40-09-4267 AM
+Computer   	  :AKSHAY
+Error      	  :Cannot perform 'Like' operation on System.Int32 and System.String.
+Stack Trace	  :at System.Data.BinaryNode.SetTypeMismatchError(Int32 op, Type left, Type right)
+   at System.Data.LikeNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   at System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   at System.Data.Index.InitRecords(IFilter filter)
+   at System.Data.Index..ctor(DataTable table, Int32[] ndexDesc, IndexField[] indexFields, Comparison`1 comparison, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataTable.GetIndex(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataView.UpdateIndex(Boolean force, Boolean fireEvent)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex2(String newSort, DataViewRowState newRowStates, IFilter newRowFilter, Boolean fireEvent)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, IFilter newRowFilter)
+   at System.Data.DataView.set_RowFilter(String value)
+   at MovieLibrary.Main.SearchMovieByKeywords(DataGridView dataGridView, DataView dataView, String keyWord) in C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\Main.cs:line 234
+---------------------------------------------------------------------------------------------------
+Source     	  :System.Data
+Method     	  :SetTypeMismatchError
+Date       	  :09-18-2016
+Time       	  :05-44-21-9837 AM
+Computer   	  :AKSHAY
+Error      	  :Cannot perform 'Like' operation on System.Int32 and System.String.
+Stack Trace	  :at System.Data.BinaryNode.SetTypeMismatchError(Int32 op, Type left, Type right)
+   at System.Data.LikeNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   at System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   at System.Data.Index.InitRecords(IFilter filter)
+   at System.Data.Index..ctor(DataTable table, Int32[] ndexDesc, IndexField[] indexFields, Comparison`1 comparison, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataTable.GetIndex(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataView.UpdateIndex(Boolean force, Boolean fireEvent)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex2(String newSort, DataViewRowState newRowStates, IFilter newRowFilter, Boolean fireEvent)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, IFilter newRowFilter)
+   at System.Data.DataView.set_RowFilter(String value)
+   at MovieLibrary.Main.SearchMovieByKeywords(DataGridView dataGridView, DataView dataView, String keyWord) in C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\Main.cs:line 234
+---------------------------------------------------------------------------------------------------
+Source     	  :System.Data
+Method     	  :SetTypeMismatchError
+Date       	  :09-18-2016
+Time       	  :05-44-36-2855 AM
+Computer   	  :AKSHAY
+Error      	  :Cannot perform 'Like' operation on System.Int32 and System.String.
+Stack Trace	  :at System.Data.BinaryNode.SetTypeMismatchError(Int32 op, Type left, Type right)
+   at System.Data.LikeNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   at System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   at System.Data.Index.InitRecords(IFilter filter)
+   at System.Data.Index..ctor(DataTable table, Int32[] ndexDesc, IndexField[] indexFields, Comparison`1 comparison, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataTable.GetIndex(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataView.UpdateIndex(Boolean force, Boolean fireEvent)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex2(String newSort, DataViewRowState newRowStates, IFilter newRowFilter, Boolean fireEvent)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, IFilter newRowFilter)
+   at System.Data.DataView.set_RowFilter(String value)
+   at MovieLibrary.Main.SearchMovieByKeywords(DataGridView dataGridView, DataView dataView, String keyWord) in C:\Users\AkshayKumar\Desktop\movie\MovieLibrary\MovieLibrary\Main.cs:line 234
+---------------------------------------------------------------------------------------------------

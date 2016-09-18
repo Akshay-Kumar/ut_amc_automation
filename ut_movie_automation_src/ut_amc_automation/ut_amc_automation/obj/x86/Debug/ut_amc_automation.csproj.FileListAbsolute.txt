@@ -1,0 +1,13 @@
+C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\Executable\ut_amc_automation\ut_amc_automation\bin\Debug\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\Executable\ut_amc_automation\ut_amc_automation\bin\Debug\ut_amc_automation.pdb
+C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\Executable\ut_amc_automation\ut_amc_automation\obj\x86\Debug\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\Executable\ut_amc_automation\ut_amc_automation\obj\x86\Debug\ut_amc_automation.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\ut_amc_automation.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\SourceCodeDAL.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\Logger.dll
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\SourceCodeDAL.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\bin\Debug\Logger.pdb
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\obj\x86\Debug\ut_amc_automation.csprojResolveAssemblyReference.cache
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\obj\x86\Debug\ut_amc_automation.exe
+C:\Users\AkshayKumar\Desktop\movie\ut_amc_automation\ut_amc_automation\obj\x86\Debug\ut_amc_automation.pdb
