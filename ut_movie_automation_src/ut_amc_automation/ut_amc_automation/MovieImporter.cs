@@ -26,6 +26,10 @@ namespace ut_amc_automation
             }
             return fileList.ToArray<string>();
         }
+        public static void PurgeMovies()
+        {
+            dal.PurgeMovies();
+        }
         public static void ImportMovies()
         {
             string[] movieList = GetMovieDetails(@"G:\Media1\New Films");
@@ -83,19 +87,18 @@ namespace ut_amc_automation
             }
             if (rowInserted == totalSize)
             {
-                Console.WriteLine(string.Format("All {0} records are inserted.", rowInserted));
+                ErrorLog.ErrorRoutine(string.Format("All {0} records are inserted.", rowInserted));
             }
             else
             {
-                Console.WriteLine(string.Format("{0} records are not inserted.", totalSize - rowInserted));
-                Console.WriteLine(string.Format("Following records are not inserted: "));
+                ErrorLog.ErrorRoutine(string.Format("{0} records are not inserted.", totalSize - rowInserted));
+                ErrorLog.ErrorRoutine(string.Format("Following records are not inserted: "));
                 int i = 1;
                 foreach (string r in recordsNotInserted)
                 {
-                    Console.WriteLine(string.Format("{0}. {1}",i++,r));
+                    ErrorLog.ErrorRoutine(string.Format("{0}. {1}", i++, r));
                 }
             }
-            Console.Read();
         }
     }
 }

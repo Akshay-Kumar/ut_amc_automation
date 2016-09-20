@@ -1,0 +1,7 @@
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\bin\Debug\MovieMetaDataDownloader.exe
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\bin\Debug\MovieMetaDataDownloader.pdb
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\obj\x86\Debug\MovieMetaDataDownloader.dashboard.resources
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\obj\x86\Debug\MovieMetaDataDownloader.Properties.Resources.resources
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\obj\x86\Debug\MovieMetaDataDownloader.csproj.GenerateResource.Cache
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\obj\x86\Debug\MovieMetaDataDownloader.exe
+C:\Users\AkshayKumar\Desktop\movie\MovieMetaDataDownloader\MovieMetaDataDownloader\obj\x86\Debug\MovieMetaDataDownloader.pdb

@@ -28,14 +28,32 @@ namespace MovieLibrary
         {
             mvData.Rows.Clear();
         }
-        private void GetMovieDataStructrure()
+        Timer progressTimer = new Timer();
+        static int index;
+        private void LoadMoviesFromDB()
         {
+            index = 0;
+            if (mvData.DataSource != null)
+            {
+                mvData.DataSource = null;
+            }
+            toolStripProgressBar2.Value = index;
             DataTable dtMovie = dal.GetAllMovieData();
             dtMovie.TableName = "Movies";
             DataTable dt = PopulateData(dtMovie);
             dvMovie.Table = dt;
+            progressTimer.Enabled = true;
+            progressTimer.Interval = 10;
+            progressTimer.Start();
             mvData.DataSource = dvMovie;
             FormatDataGridViewCells(mvData);
+            progressTimer.Stop();
+            progressTimer.Enabled = false;
+            toolStripProgressBar2.Visible = false;
+        }
+        private void progressTimer_Tick(object sender, EventArgs e)
+        {
+            IncrementProgressBar(index++);
         }
         private DataTable PopulateData(DataTable dtTemp)
         {
@@ -45,10 +63,9 @@ namespace MovieLibrary
             dtFormatData.Columns.Add("release_year", typeof(string));
             dtFormatData.Columns.Add("insert_datetime", typeof(string));
             dtFormatData.Columns.Add("movie_file_path", typeof(Image));
-            int index = 0;
             int max = dtTemp.Rows.Count;
-            toolStripProgressBar2.Maximum = max;
-
+            toolStripProgressBar2.Maximum = max*40;
+            toolStripProgressBar2.Visible = true;
             foreach (DataRow row in dtTemp.Rows)
             {
                 string movie_title = row[0].ToString().Trim();  //ie. id
@@ -108,7 +125,7 @@ namespace MovieLibrary
 
         private void loadDataToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            GetMovieDataStructrure();
+            LoadMoviesFromDB();
         }
         
         public static Image ResizeImage(string file,
@@ -247,6 +264,47 @@ namespace MovieLibrary
         private void toolStripTextBox1_TextChanged(object sender, EventArgs e)
         {
             SearchMovieByKeywords(mvData, dvMovie, toolStripTextBox1.Text.Trim());
+        }
+        
+       
+        private void InitiateDatabaseRefresh()
+        {
+            string arg = @"C:\Users\AkshayKumar\Desktop\Torrent_Work\ut_config\ut_amc_automation.exe purge";
+            try
+            {
+                ProcessStartInfo startInfo = new ProcessStartInfo("cmd", "/c " + arg);
+                //startInfo.Arguments = arguments.Trim();
+                startInfo.UseShellExecute = false;
+                startInfo.RedirectStandardOutput = true;
+                startInfo.RedirectStandardError = true;
+                //startInfo.CreateNoWindow = true;
+                Process process = new Process();
+                process.StartInfo = startInfo;
+                process.OutputDataReceived += CaptureOutput;
+                process.ErrorDataReceived += CaptureError;
+                process.Start();
+                process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
+                process.WaitForExit();
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.ErrorRoutine(ex);
+            }
+        }
+        private void CaptureOutput(object sender, DataReceivedEventArgs e)
+        {
+            ErrorLog.ErrorRoutine(e.Data);
+        }
+
+        private void CaptureError(object sender, DataReceivedEventArgs e)
+        {
+            ErrorLog.ErrorRoutine(e.Data);
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            InitiateDatabaseRefresh();
         }
     }
 }

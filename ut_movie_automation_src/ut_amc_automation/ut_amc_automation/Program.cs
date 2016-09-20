@@ -12,7 +12,15 @@ namespace ut_amc_automation
         {
             if (args.Length != 0)
             {
-                new CustomeFilebot().StartProcess(args);
+                if (args[0].ToLower().Contains("purge"))
+                {
+                    MovieImporter.PurgeMovies();
+                    MovieImporter.ImportMovies();
+                }
+                else
+                {
+                    new CustomeFilebot().StartProcess(args);
+                }
             }
             else
             {

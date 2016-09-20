@@ -706,33 +706,6 @@ namespace SourceCodeDAL
         ////    }
         ////    return flag;
         ////}
-        ////public bool UndoDeleteProgramCode(ProgramCode code)
-        ////{
-        ////    bool flag = false;
-        ////    SqlParameter programId = null;
-        ////    SqlParameter errorCode = null;
-        ////    try
-        ////    {
-        ////        programId = new SqlParameter("@PROGRAM_ID", SqlDbType.NChar);
-        ////        programId.Direction = ParameterDirection.Input;
-        ////        programId.Value = code.ProgramId;
-
-        ////        errorCode = new SqlParameter("@ERROR_CODE", SqlDbType.Int);
-        ////        errorCode.Direction = ParameterDirection.Output;
-
-        ////        action.ExecuteUpdate(out command, StoredProcedures.UNDELETE_PROGRAM_CODE, programId, errorCode);
-        ////        int result = Int32.Parse(errorCode.Value.ToString());
-        ////        if (result == 0)
-        ////            flag = true;
-        ////        else if (result == 1)
-        ////            flag = false;
-        ////    }
-        ////    catch (Exception dalException)
-        ////    {
-        ////        ErrorLog.ErrorRoutine(dalException);
-        ////    }
-        ////    return flag;
-        ////}
         
         //public bool InsertOrUpdateRolePermissions(RolePermissions[] panelDataCollection)
         //{
@@ -804,6 +777,18 @@ namespace SourceCodeDAL
         //    }
         //    return flag;
         //}
+        public void PurgeMovies()
+        {
+            try
+            {
+
+                action.ExecuteUpdate(out command, StoredProcedures.PURGE);
+            }
+            catch (Exception dalException)
+            {
+                ErrorLog.ErrorRoutine(dalException);
+            }
+        }
         public DataTable GetAllMovieData()
         {
             DataTable dt = null;

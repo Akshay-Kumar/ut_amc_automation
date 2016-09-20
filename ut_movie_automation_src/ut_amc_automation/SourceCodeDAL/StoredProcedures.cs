@@ -32,7 +32,7 @@ namespace SourceCodeDAL
         public static string GET_ALL_DELETED_PROGRAM_NAMES = "[dbo].[GET_ALL_DELETED_PROGRAM_NAMES]";
         public static string UNDELETE_PROGRAM_CODE = "[dbo].[UNDELETE_PROGRAM_CODE]";
         public static string FORGOT_USER_PASSWORD = "[dbo].[FORGOT_USER_PASSWORD]";
-        public static string INSERT_OR_UPDATE_ROLE_PERMISSIONS = "[dbo].[INSERT_OR_UPDATE_ROLE_PERMISSIONS]";
+        public static string PURGE = "[dbo].[PURGE]";
         public static string INSERT_OR_UPDATE_MOVIE = "[dbo].[INSERT_OR_UPDATE_MOVIE]";
     }
 }
