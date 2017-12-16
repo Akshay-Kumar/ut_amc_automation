@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# Amazon Crawler
+A relatively simple amazon.com crawler written in python. It has the following features:
 
-You can use the [editor on GitHub](https://github.com/Akshay-Kumar/ut_amc_automation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ * supports hundreds of simultaneous requests, depending on machine's limits
+ * supports using proxy servers
+ * supports scaling to multiple machines orchestrating the crawl and keeping in sync
+ * can be paused and restarted without losing its place
+ * logs progress and warning conditions to a file for later analysis
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It was used to pull over 1MM+ products and their images from amazon in a few hours. [Read more]().
 
-### Markdown
+## Getting it Setup
+After you get a copy of this codebase pulled down locally (either downloaded as a zip or git cloned), you'll need to install the python dependencies:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    pip install -r requirements.txt
 
-```markdown
-Syntax highlighted code block
+Then you'll need to go into the `settings.py` file and update a number of values:
 
-# Header 1
-## Header 2
-### Header 3
+ * **Database Name, Host and User** - Connection information for storing products in a postgres database
+ * **Redis Host, Port and Database** - Connection information for storing the URL queue in redis
+ * **Proxy List as well as User, Password and Port** - Connection information for your list of proxy servers
 
-- Bulleted
-- List
+Once you've updated all of your connection information, you'll need to run the following at the command line to setup the postgres table that will store the product records:
 
-1. Numbered
-2. List
+    python models.py
 
-**Bold** and _Italic_ and `Code` text
+The fields that are stored for each product are the following:
 
-[Link](url) and ![Image](src)
-```
+ * title
+ * product_url *(URL for the detail page)*
+ * listing_url *(URL of the subcategory listing page we found this product on)*
+ * price
+ * primary_img *(the URL to the full-size primary product image)*
+ * crawl_time *(the timestamp of when the crawl began)*
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How it Works
+You begin the crawler for the first time by running:
 
-### Jekyll Themes
+    python crawler.py start
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Akshay-Kumar/ut_amc_automation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This runs a function that looks at all of the category URLs stored in the `start-urls.txt` file, and then explodes those out into hundreds of subcategory URLs it finds on the category pages. Each of these subcategory URLs is placed in the redis queue that holds the frontier listing URLs to be crawled.
 
-### Support or Contact
+Then the program spins up the number of threads defined in `settings.max_threads` and each one of those threads pops a listing URL from the queue, makes a request to it and then stores the (usually) 10-12 products it finds on the listing page. It also looks for the "next page" URL and puts that in the queue.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Restarting the crawler
+If you're restarting the crawler and don't want it to go back to the beginning, you can simply run it with
+
+    python crawler.py
+
+This will skip the step of populating the URL queue with subcategory links, and assumes that there are already URLs stored in redis from a previous instance of the crawler.
+
+This is convenient for making updates to crawler or parsing logic that only affect a few pages, without going back to the beginning and redoing all of your previous crawling work.
+
+### Piping Output to a Logfile
+If you'd like to redirect the logging output into a logfile for later analysis, run the crawler with:
+
+    python crawler.py [start] > /var/log/crawler.log
+
+## Known Limitations
+Amazon uses many different styles of markup depending on the category and product type. This crawler focused mostly on the "Music, Movies & Games" category as well as the "Sports & Outdoors" category.
+
+The extractors for finding product listings and their details will likely need to be changed to crawl different categories, or as the site's markup changes over time.
