@@ -1,62 +1,90 @@
-# Amazon Crawler
-A relatively simple amazon.com crawler written in python. It has the following features:
+# Torrent Automatic Media Center Tool
+A relatively simple windows batch script with a little flavour of C# and filbot to organize all your
+torrent downloads. It has the following features:
 
- * supports hundreds of simultaneous requests, depending on machine's limits
- * supports using proxy servers
- * supports scaling to multiple machines orchestrating the crawl and keeping in sync
- * can be paused and restarted without losing its place
- * logs progress and warning conditions to a file for later analysis
-
-It was used to pull over 1MM+ products and their images from amazon in a few hours. [Read more]().
+ * downloads subtitles, posters and fan arts
+ * moves the media file as per the media content into either Movies, Music or TV Show directories specified in config file 
+ * sends notification through email and also through pushbullet when download finishes
+ * supports management of multiple downloaded files simultaneously
+ * supports automatic renaming the media files based on movie and TV series episode names from imdb database
 
 ## Getting it Setup
-After you get a copy of this codebase pulled down locally (either downloaded as a zip or git cloned), you'll need to install the python dependencies:
+After you get a copy of this codebase pulled down locally (either downloaded as a zip or git cloned), you'll need to install the filebot:
 
-    pip install -r requirements.txt
+    https://get.filebot.net/windows/1
 
-Then you'll need to go into the `settings.py` file and update a number of values:
+Then you'll need to go into the ./ut_amc_automation_v1.1/config.bat file and update the following values:
 
- * **Database Name, Host and User** - Connection information for storing products in a postgres database
- * **Redis Host, Port and Database** - Connection information for storing the URL queue in redis
- * **Proxy List as well as User, Password and Port** - Connection information for your list of proxy servers
+ * **AMC_PATH="<optional>"** - Location of the groovy script to be used by the filebot. I recommend to use amc.groovy, if left blank or just amc it picks up the latest groovy source code from the official source online.
 
-Once you've updated all of your connection information, you'll need to run the following at the command line to setup the postgres table that will store the product records:
+* **REPLACE_PATH="<leave this field blank>"** - 
+* **CLEANER_PATH="<leave this field blank>"** - 
+* **MEDIA=<path>** - Location where you want to store all downloaded torrents.
+* **PUSHBULLET_API_TOKEN=<token>** - Pushbullet token.
+* **PLEX_URL=<optional>** - If you have installed plex media player and you want to list and organize your torrent media in plex us the plex server url. Default value: localhost.
+* **EXCLUDE_LIST=amc-input.txt
+* **TV=<tv directory>** - Name of the directory for storing tv series.
+* **FILM=<film directory>** - Name of the directory for storing movies.
+* **MUSIC=<music directory>** - Name of the directory for storing music files.
+* **ANIME=<anime directory>** - Name of the directory for storing animated series.
+* **UNSORTED=<Unsorted>
+* **SERIES_FORMAT={n}/Season {s.pad(2)}/{n} - {s00e00} - {t}** - Use as it is.
+* **ANIME_FORMAT={n} - {s00e00} - {t}** - Use as it is
+* **MOVIE_FORMAT={n} ({y})/{fn}** - Us as it is
+* **MUSIC_FORMAT={n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}** - Use as it is
+* **CURRENT_DIRECTORY=<directory>** - Location where you have placed ut_amc_automation.exe
+* **UNSORTED_FORMAT={file.structurePathTail}
+* **USER_NAME=<email from>** -Your email address 
+* **PASSWORD=<password token>** - Password token get it from google apps.
+* **EMAIL_TO=<email to>** - Email to send notification to.
 
-    python models.py
+Once you've updated all of your parameter information, you'll need to configure the following in your bit torrent application or utorrent or any other torrent client to finalize your setup:
 
-The fields that are stored for each product are the following:
+* Open bit torrent and navigate to options->preferences->Run Program(AT THE BOTTOM)
+* Paste the following command in the text box that says "Run this program when a torrent finishes:"
 
- * title
- * product_url *(URL for the detail page)*
- * listing_url *(URL of the subcategory listing page we found this product on)*
- * price
- * primary_img *(the URL to the full-size primary product image)*
- * crawl_time *(the timestamp of when the crawl began)*
+	<fill path of the location of the executable file>\ut_amc_automation.exe "<full path of the excutable file>\ut_amc_automation.bat" "%D" "%F" "%K" "%N" "%L" "%S" "%I"
 
+The parameters passed above and their meaning are as following:
+
+You can use the following parameters:
+
+ * %F - Name of downloaded file (for single file torrents)
+ * %D - Directory where files are saved
+ * %N - Title of torrent
+ * %P - Previous state of torrent
+ * %L - Label
+ * %T - Tracker
+ * %M - Status message string (same as status column)
+ * %I - hex encoded info-hash
+ * %S - State of torrent
+ * %K - kind of torrent (single|multi)
+
+Where State is one of:
+
+ * Error - 1
+ * Checked - 2
+ * Paused - 3
+ * Super seeding - 4
+ * Seeding - 5
+ * Downloading - 6
+ * Super seed [F] - 7
+ * Seeding [F] - 8
+ * Downloading [F] - 9
+ * Queued seed - 10
+ * Finished - 11
+ * Queued - 12
+ * Stopped - 13
+ * Queued - 12
+ * Preallocating - 17
+ * Downloading Metadata - 18
+ * Connecting to Peers - 19
+ * Moving - 20
+ * Flushing - 21
+ * Need DHT - 22
+ * Finding Peers - 23
+ * Resolving - 24
+ * Writing - 25
+ 
 ## How it Works
-You begin the crawler for the first time by running:
-
-    python crawler.py start
-
-This runs a function that looks at all of the category URLs stored in the `start-urls.txt` file, and then explodes those out into hundreds of subcategory URLs it finds on the category pages. Each of these subcategory URLs is placed in the redis queue that holds the frontier listing URLs to be crawled.
-
-Then the program spins up the number of threads defined in `settings.max_threads` and each one of those threads pops a listing URL from the queue, makes a request to it and then stores the (usually) 10-12 products it finds on the listing page. It also looks for the "next page" URL and puts that in the queue.
-
-### Restarting the crawler
-If you're restarting the crawler and don't want it to go back to the beginning, you can simply run it with
-
-    python crawler.py
-
-This will skip the step of populating the URL queue with subcategory links, and assumes that there are already URLs stored in redis from a previous instance of the crawler.
-
-This is convenient for making updates to crawler or parsing logic that only affect a few pages, without going back to the beginning and redoing all of your previous crawling work.
-
-### Piping Output to a Logfile
-If you'd like to redirect the logging output into a logfile for later analysis, run the crawler with:
-
-    python crawler.py [start] > /var/log/crawler.log
-
-## Known Limitations
-Amazon uses many different styles of markup depending on the category and product type. This crawler focused mostly on the "Music, Movies & Games" category as well as the "Sports & Outdoors" category.
-
-The extractors for finding product listings and their details will likely need to be changed to crawl different categories, or as the site's markup changes over time.
+As soon as you torrent finishes the download it runs the ut_amc_automation and the application accepts the parameters from the torrent client and perform the specific task.
