@@ -15,35 +15,35 @@ After you get a copy of this codebase pulled down locally (either downloaded as 
 
 Then you'll need to go into the ./ut_amc_automation_v1.1/config.bat file and update the following values:
 
- * **AMC_PATH="<optional>"** - Location of the groovy script to be used by the filebot. I recommend to use amc.groovy, if left blank or just amc it picks up the latest groovy source code from the official source online.
+ * **AMC_PATH="optional"** - Location of the groovy script to be used by the filebot. I recommend to use amc.groovy, if left blank or just amc it picks up the latest groovy source code from the official source online.
 
-* **REPLACE_PATH="<leave this field blank>"** - 
-* **CLEANER_PATH="<leave this field blank>"** - 
-* **MEDIA=<path>** - Location where you want to store all downloaded torrents.
-* **PUSHBULLET_API_TOKEN=<token>** - Pushbullet token.
-* **PLEX_URL=<optional>** - If you have installed plex media player and you want to list and organize your torrent media in plex us the plex server url. Default value: localhost.
+* **REPLACE_PATH="leave this field blank"** - 
+* **CLEANER_PATH="leave this field blank"** - 
+* **MEDIA=path** - Location where you want to store all downloaded torrents.
+* **PUSHBULLET_API_TOKEN=token** - Pushbullet token.
+* **PLEX_URL=optional** - If you have installed plex media player and you want to list and organize your torrent media in plex us the plex server url. Default value: localhost.
 * **EXCLUDE_LIST=amc-input.txt
-* **TV=<tv directory>** - Name of the directory for storing tv series.
-* **FILM=<film directory>** - Name of the directory for storing movies.
-* **MUSIC=<music directory>** - Name of the directory for storing music files.
-* **ANIME=<anime directory>** - Name of the directory for storing animated series.
-* **UNSORTED=<Unsorted>
+* **TV=tv directory** - Name of the directory for storing tv series.
+* **FILM=film directory** - Name of the directory for storing movies.
+* **MUSIC=music directory** - Name of the directory for storing music files.
+* **ANIME=anime directory** - Name of the directory for storing animated series.
+* **UNSORTED=Unsorted
 * **SERIES_FORMAT={n}/Season {s.pad(2)}/{n} - {s00e00} - {t}** - Use as it is.
 * **ANIME_FORMAT={n} - {s00e00} - {t}** - Use as it is
 * **MOVIE_FORMAT={n} ({y})/{fn}** - Us as it is
 * **MUSIC_FORMAT={n}/{album+'/'}{pi.pad(2)+'. '}{artist} - {t}** - Use as it is
-* **CURRENT_DIRECTORY=<directory>** - Location where you have placed ut_amc_automation.exe
+* **CURRENT_DIRECTORY=directory** - Location where you have placed ut_amc_automation.exe
 * **UNSORTED_FORMAT={file.structurePathTail}
-* **USER_NAME=<email from>** -Your email address 
-* **PASSWORD=<password token>** - Password token get it from google apps.
-* **EMAIL_TO=<email to>** - Email to send notification to.
+* **USER_NAME=email from** -Your email address 
+* **PASSWORD=password token** - Password token get it from google apps.
+* **EMAIL_TO=email to** - Email to send notification to.
 
 Once you've updated all of your parameter information, you'll need to configure the following in your bit torrent application or utorrent or any other torrent client to finalize your setup:
 
-* Open bit torrent and navigate to options->preferences->Run Program(AT THE BOTTOM)
+* Open bit torrent and navigate to options-preferences-Run Program(AT THE BOTTOM)
 * Paste the following command in the text box that says "Run this program when a torrent finishes:"
 
-	<fill path of the location of the executable file>\ut_amc_automation.exe "<full path of the excutable file>\ut_amc_automation.bat" "%D" "%F" "%K" "%N" "%L" "%S" "%I"
+	fill path of the location of the executable file\ut_amc_automation.exe "full path of the excutable file\ut_amc_automation.bat" "%D" "%F" "%K" "%N" "%L" "%S" "%I"
 
 The parameters passed above and their meaning are as following:
 
